@@ -1,0 +1,25 @@
+{
+  "name": "rs_automation_hn",
+  "version": "1.0.0",
+  "description": "rstudio automation e2e tests with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluetiger11/RS_Automation_HN.git"
+  },
+  "keywords": [
+    "rstudio",
+    "automation",
+    "cypress",
+    "tests"
+  ],
+  "author": "Hamdullah Noori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluetiger11/RS_Automation_HN/issues"
+  },
+  "homepage": "https://github.com/bluetiger11/RS_Automation_HN#readme"
+}
