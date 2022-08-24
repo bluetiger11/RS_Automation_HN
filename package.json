@@ -1,0 +1,29 @@
+{
+  "name": "rs_automation_hn",
+  "version": "1.0.0",
+  "description": "RStudio Cloud Automation Framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluetiger11/RS_Automation_HN.git"
+  },
+  "keywords": [
+    "E2E",
+    "Automation",
+    "Tests",
+    "with",
+    "Cypress"
+  ],
+  "author": "Hamdullah Noori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluetiger11/RS_Automation_HN/issues"
+  },
+  "homepage": "https://github.com/bluetiger11/RS_Automation_HN#readme",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  }
+}
