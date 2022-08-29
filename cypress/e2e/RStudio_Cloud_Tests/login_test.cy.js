@@ -24,9 +24,9 @@ describe( "rstudio cloud locator",() => {
     it('click on continue ', ()=>{
         cy.get('.fullPageFormContainer > :nth-child(2) > .actions > button')
         .click();
-        cy.get('input[type="password"]', {time:5000})
+        cy.get('input[type="password"]', {time:50000})
         .click().type("Atal1745%");
-        cy.get('.actions > button').should('be.visible').click(),{time:10000};
+        cy.get('.actions > button').should('be.visible').click(),{time:50000};
         cy.get('#entry > div > div:nth-child(2) > div > a.appPicker.cloud.noLink > span').click();
 
     });
