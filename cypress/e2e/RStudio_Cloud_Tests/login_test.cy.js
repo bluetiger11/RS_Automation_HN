@@ -18,14 +18,14 @@ describe( "rstudio cloud locator",() => {
         .and("have.value","")
         .focus()
         .click()
-        .type('aaron.lundber@gmail.com');
+        .type('email_address_login');
     });
 
     it('click on continue ', ()=>{
         cy.get('.fullPageFormContainer > :nth-child(2) > .actions > button')
         .click();
         cy.get('input[type="password"]', {time:50000})
-        .click().type("Atal1745%");
+        .click().type("password");
         cy.get('.actions > button').should('be.visible').click(),{time:50000};
         cy.get('#entry > div > div:nth-child(2) > div > a.appPicker.cloud.noLink > span').click();
 
